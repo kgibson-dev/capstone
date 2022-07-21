@@ -1,5 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-chai-matchers");
 require("dotenv").config();
+require("@nomiclabs/hardhat-ethers");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
